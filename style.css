@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fundamental CSS comprehension</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <section class="card">
+      <header>
+        <h2>Gibby Froggenson</h2>
+      </header>
+      <article>
+        <img src="https://cdn11.bigcommerce.com/s-a3z611ns/products/8925/images/7248/am3157685__50179.1529771653.386.513.jpg?c=2" alt="A picture of Gibby - asilly pac-man frog!" width="200">
+        <p>50 Tree Ln<br>
+           The Pond<br>
+           Albert's Forest<br>
+           USA<br>
+          <strong>Tel</strong>: 123 456 7890<br>
+          <strong>Mail</strong>: gibby@coolfrog.com</p>
+      </article>
+      <footer>
+        <p>Professional Bug Eater, Hopper, and Croaker</p>
+      </footer>
+    </section>
+
+    <!-- CSS -->
+    <style>
+      /* General Style */
+      html {
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        background-color: #ccc;
+      }
+
+      /* Card */
+      .card {
+        width: 500px;
+        height: 300px;
+        margin: 100px auto;
+        background-color: red;
+        border: 5px solid green;
+        border-radius: 15px;
+      }
+
+      .card article {
+        height: 200px;
+        background-color: coral;
+      }
+
+      .card article img {
+        float: right;
+        width: 200px;
+      }
+
+      .card article p {
+        padding: 15px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .card header h2 {
+        text-align: center;
+      }
+
+      .card footer p {
+        text-align: center;
+        margin-top: 8px;
+      }
+    </style>
+
+  </body>
+</html>
