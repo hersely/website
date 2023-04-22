@@ -1,0 +1,32 @@
+body {
+  background-color: #3a42d0;
+  background-image: linear-gradient(to bottom, #d1d2df, #c3c4cd);
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Times, serif;
+}
+
+p, a, li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.github-icon:hover img {
+  filter: grayscale(100%);
+}
+
+.social-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.my-class {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-family: 'Courier New', Courier, monospace;
+}
